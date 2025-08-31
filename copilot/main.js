@@ -1,6 +1,9 @@
 // fullpage.js 单页照片展示
 const photos = [
-	'', '', '', // 可添加图片链接
+    'image/photo1.jpg',
+    'image/photo2.jpg',
+    'image/photo3.jpg'
+    // 可继续添加更多图片链接
 ];
 
 document.addEventListener('DOMContentLoaded', function() {
