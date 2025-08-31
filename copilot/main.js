@@ -1,8 +1,8 @@
 // fullpage.js 单页照片展示
 const photos = [
-    'image/photo1.jpg',
-    'image/photo2.jpg',
-    'image/photo3.jpg'
+    'image/photo1.jpeg',
+    'image/photo2.jpeg',
+    'image/photo3.jpeg'
     // 可继续添加更多图片链接
 ];
 
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	// 初始化 fullpage.js
 	new fullpage('#fullpage', {
 		autoScrolling: true,
-		navigation: true,
+		navigation: true,  
 		navigationPosition: 'right',
 		scrollHorizontally: false
 	});
